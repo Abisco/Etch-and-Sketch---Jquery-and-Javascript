@@ -28,15 +28,21 @@ $(document).ready(function() {
   });
 
   $('.btn-group .btn').on("click",function(){
-     color = this.id;
+    color = this.id;
   })
 
   var color = "black";
-  $( ".square" ).hover(function() {
+  $(document).on('mouseover', '.square', function(e) {
     $(this).removeClass();
     $(this).addClass("square");
     $(this).addClass(color);
-  }, function() {
-    /* Stuff to do when the mouse leaves the element */
+  });
+
+  $('#numberBoxes').keypress(function (e) {
+    if (e.which == 13) {
+      x = $("#numberBoxes").val();
+      changeGrid(x);
+      return false;
+    }
   });
 });
