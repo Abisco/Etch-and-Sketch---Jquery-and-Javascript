@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Etch and Sketch by Abu</title>
+
+  <link rel="stylesheet" href="css/master.css" charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <h1 class="text-center">Etch and Sketch</h1>
+    </div>
+
+    <div class="row">
+      <div id="reset"class="col-lg-4 col-lg-offset-4">
+        <form action="">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="# Boxes in each Row and Column" id="numberBoxes">
+            <span class="input-group-btn">
+              <button class="btn btn-secondary" type="button" id="reset_button">Reset Grid!</button>
+            </span>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-m-6 text-center">
+        <div class="btn-group" data-toggle="buttons">
+          <label id="black" class="btn btn-default active center-block"><input type="radio">Black</label>
+          <label id="white" class="btn btn-default center-block"><input type="radio">White</label>
+          <label id="red" class="btn btn-default center-block"><input type="radio">Red</label>
+          <label id="blue" class="btn btn-default center-block"><input type="radio">Blue</label>
+          <label id="green" class="btn btn-default center-block"><input type="radio">Green</label>
+        </div>
+      </div>
+    </div>
+
+    <div id="etch-design">
+      <div class="etch-box" id="etch"></div>
+    </div>
+  </div>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="js/script.js" charset="utf-8"></script>
+</body>
+</html>

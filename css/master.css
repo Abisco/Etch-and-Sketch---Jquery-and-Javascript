@@ -1,0 +1,56 @@
+.title {
+   margin: 0 auto;
+}
+
+.square {
+  border-style: solid;
+  margin: auto;
+  vertical-align: middle;
+  float:left;
+}
+
+.btn-group {
+  padding: 20px;
+}
+
+button {
+  margin: 0 auto;
+}
+
+.etch-box {
+  width: 800px;
+  height: 800px;
+  margin: 0 auto;
+  background-color: #d3cdcd;
+}
+
+#etch-design {
+  border-radius: 25px;
+  border-color: #ee0e0f;
+  border-style: solid;
+  border-width: 125px 200px;
+}
+
+.red {
+  background-color: #ff0000;
+}
+
+.blue {
+  background-color: #0043ff;
+}
+
+.green {
+  background-color: #19ff00;
+}
+
+.black {
+  background-color: #000;
+}
+
+.white {
+  background-color: #fff;
+}
+
+#reset {
+  padding: 20px;
+}
